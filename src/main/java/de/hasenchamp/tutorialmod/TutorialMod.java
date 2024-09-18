@@ -2,6 +2,7 @@ package de.hasenchamp.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import de.hasenchamp.tutorialmod.block.ModBlocks;
+import de.hasenchamp.tutorialmod.item.ModCreativeModeTabs;
 import de.hasenchamp.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,8 @@ public class TutorialMod
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
