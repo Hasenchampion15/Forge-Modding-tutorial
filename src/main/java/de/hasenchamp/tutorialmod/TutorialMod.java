@@ -1,6 +1,7 @@
 package de.hasenchamp.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import de.hasenchamp.tutorialmod.block.ModBlocks;
 import de.hasenchamp.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,6 +36,7 @@ public class TutorialMod
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
@@ -51,6 +53,12 @@ public class TutorialMod
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.Hasenchampionite);
+            event.accept(ModItems.Raw_Hasenchampionite);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
+        {
+         event.accept(ModBlocks.Hasenchampionite_Block);
+            event.accept(ModBlocks.Raw_Hasenchampionite_Block);
         }
     }
 

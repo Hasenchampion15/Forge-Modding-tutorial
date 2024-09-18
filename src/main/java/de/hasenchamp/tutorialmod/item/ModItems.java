@@ -14,7 +14,8 @@ public class ModItems
 
     public static final RegistryObject<Item> Hasenchampionite = Items.register("hasenchampionite",
             () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> Raw_Hasenchampionite = Items.register("raw_hasenchampionite",
+            () -> new Item(new Item.Properties()));
 
     public static void register (IEventBus eventBus)
     {
