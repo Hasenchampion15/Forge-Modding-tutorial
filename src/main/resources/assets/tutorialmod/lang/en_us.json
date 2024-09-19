@@ -3,6 +3,8 @@
   "item.tutorialmod.raw_hasenchampionite": "Raw Hasenchampionite Gem",
   "block.tutorialmod.hasenchampionite_block": "Block of Hasenchampionite",
   "block.tutorialmod.raw_hasenchampionite_block": "Raw Block of Hasenchampionite",
+  "block.tutorialmod.hasenchampionite_ore": "Hasenchampionite Ore",
+  "block.tutorialmod.hasenchampionite_deepslate_ore": "Hasenchampionite Deepslate Ore",
   "creativetab.tutorialmod.hasenchampionite_items": "Hasenchampionite Items",
   "creativetab.tutorialmod.hasenchampionite_blocks": "Hasenchampionite Blocks"
 }

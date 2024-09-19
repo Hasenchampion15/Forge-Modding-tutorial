@@ -3,11 +3,11 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.25,
-  "group": "alexandrite",
+  "group": "hasenchampionite",
   "ingredient": {
-    "item": "tutorialmod:raw_alexandrite"
+    "item": "tutorialmod:raw_hasenchampionite"
   },
   "result": {
-    "id": "tutorialmod:alexandrite"
+    "id": "tutorialmod:hasenchampionite"
   }
 }

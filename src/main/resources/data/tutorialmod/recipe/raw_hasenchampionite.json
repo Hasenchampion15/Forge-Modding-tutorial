@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-        "item": "tutorialmod:hasenchampionite_block"
+        "item": "tutorialmod:raw_hasenchampionite_block"
     }
   ],
   "result":{
     "count": 9,
-    "id": "tutorialmod:hasenchampionite"
+    "id": "tutorialmod:raw_hasenchampionite"
   }
 }
