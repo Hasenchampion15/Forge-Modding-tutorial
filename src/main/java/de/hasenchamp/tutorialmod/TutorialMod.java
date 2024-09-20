@@ -60,8 +60,12 @@ public class TutorialMod
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
         {
-         event.accept(ModBlocks.Hasenchampionite_Block);
+            event.accept(ModBlocks.Hasenchampionite_Block);
             event.accept(ModBlocks.Raw_Hasenchampionite_Block);
+        }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)
+        {
+            event.accept(ModItems.Chisel);
         }
     }
 

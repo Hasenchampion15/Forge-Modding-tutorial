@@ -1,6 +1,7 @@
 package de.hasenchamp.tutorialmod.item;
 
 import de.hasenchamp.tutorialmod.TutorialMod;
+import de.hasenchamp.tutorialmod.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,8 +15,12 @@ public class ModItems
 
     public static final RegistryObject<Item> Hasenchampionite = Items.register("hasenchampionite",
             () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> Raw_Hasenchampionite = Items.register("raw_hasenchampionite",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Chisel = Items.register("chisel",
+            () -> new ChiselItem(new Item.Properties().durability(64)));
 
     public static void register (IEventBus eventBus)
     {

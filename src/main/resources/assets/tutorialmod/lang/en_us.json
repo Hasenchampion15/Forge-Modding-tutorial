@@ -1,6 +1,7 @@
 {
   "item.tutorialmod.hasenchampionite": "Hasenchampionite Gem",
   "item.tutorialmod.raw_hasenchampionite": "Raw Hasenchampionite Gem",
+  "item.tutorialmod.chisel": "Chisel",
   "block.tutorialmod.hasenchampionite_block": "Block of Hasenchampionite",
   "block.tutorialmod.raw_hasenchampionite_block": "Raw Block of Hasenchampionite",
   "block.tutorialmod.hasenchampionite_ore": "Hasenchampionite Ore",

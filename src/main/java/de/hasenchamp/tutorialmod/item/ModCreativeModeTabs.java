@@ -22,6 +22,7 @@ public class ModCreativeModeTabs
                     {
                         output.accept(ModItems.Hasenchampionite.get());
                         output.accept(ModItems.Raw_Hasenchampionite.get());
+                        output.accept(ModItems.Chisel.get());
                     })
                     .build());
 public static final RegistryObject<CreativeModeTab> Hasenchampionite_Blocks_Tab = CREATIVE_MODE_TAB.register("hasenchamionite_blocks_tab",
