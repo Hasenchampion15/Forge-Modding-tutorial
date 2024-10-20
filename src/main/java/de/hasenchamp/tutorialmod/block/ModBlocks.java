@@ -2,6 +2,7 @@ package de.hasenchamp.tutorialmod.block;
 
 
 import de.hasenchamp.tutorialmod.TutorialMod;
+import de.hasenchamp.tutorialmod.block.custom.MagicBlock;
 import de.hasenchamp.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -38,6 +39,10 @@ public class ModBlocks
     public static final RegistryObject<Block> Hasenchampionite_Deepslate_Ore = registerBlock("hasenchampionite_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 7),BlockBehaviour.Properties.of()
                     .strength(2.5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of()
+                    .strength(1f).requiresCorrectToolForDrops()));
 
 
 

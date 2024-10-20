@@ -7,5 +7,6 @@
   "block.tutorialmod.hasenchampionite_ore": "Hasenchampionite Ore",
   "block.tutorialmod.hasenchampionite_deepslate_ore": "Hasenchampionite Deepslate Ore",
   "creativetab.tutorialmod.hasenchampionite_items": "Hasenchampionite Items",
-  "creativetab.tutorialmod.hasenchampionite_blocks": "Hasenchampionite Blocks"
+  "creativetab.tutorialmod.hasenchampionite_blocks": "Hasenchampionite Blocks",
+  "block.tutorialmod.magic_block": "Magic Block"
 }

@@ -36,6 +36,8 @@ public static final RegistryObject<CreativeModeTab> Hasenchampionite_Blocks_Tab 
                         output.accept(ModBlocks.Hasenchampionite_Ore.get());
                         output.accept(ModBlocks.Hasenchampionite_Deepslate_Ore.get());
 
+                        output.accept(ModBlocks.MAGIC_BLOCK.get());
+
 
                     })
                     .build());
