@@ -1,6 +1,7 @@
 package de.hasenchamp.tutorialmod.block.custom;
 
 import de.hasenchamp.tutorialmod.item.ModItems;
+import de.hasenchamp.tutorialmod.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
@@ -36,7 +37,7 @@ public class MagicBlock extends Block {
     @Override
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
         if (pEntity instanceof ItemEntity itemEntity) {
-            if (itemEntity.getItem().getItem() == ModItems.Raw_Hasenchampionite.get()) {
+            if (isValidItem(itemEntity.getItem())) {
                 itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
             }
         }
@@ -50,9 +51,15 @@ public class MagicBlock extends Block {
         super.stepOn(pLevel, pPos, pState, pEntity);
     }
 
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
+    }
+
     @Override
     public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.magic_block.tooltip"));
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     }
+
+
 }
