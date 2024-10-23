@@ -57,15 +57,21 @@ public class TutorialMod
         {
             event.accept(ModItems.Hasenchampionite);
             event.accept(ModItems.Raw_Hasenchampionite);
+            event.accept(ModItems.AURORA_ASHES);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
         {
             event.accept(ModBlocks.Hasenchampionite_Block);
             event.accept(ModBlocks.Raw_Hasenchampionite_Block);
+            event.accept(ModBlocks.MAGIC_BLOCK);
         }
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)
         {
             event.accept(ModItems.Chisel);
+        }
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS)
+        {
+            event.accept(ModItems.KOHLRABI);
         }
     }
 

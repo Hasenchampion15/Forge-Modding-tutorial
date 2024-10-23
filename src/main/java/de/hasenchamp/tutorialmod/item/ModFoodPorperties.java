@@ -6,5 +6,5 @@ import net.minecraft.world.food.FoodProperties;
 
 public class ModFoodPorperties {
     public static final FoodProperties KOHLRABI = new FoodProperties.Builder().nutrition(4).saturationModifier(0.5f)
-            .effect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 400), 0.20f).build();
+            .effect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 400), 0.50f).build();
 }

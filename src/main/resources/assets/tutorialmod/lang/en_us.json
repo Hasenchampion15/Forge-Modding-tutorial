@@ -16,6 +16,14 @@
   "block.tutorialmod.magic_block": "Magic Block",
 
   "creativetab.tutorialmod.hasenchampionite_items": "Hasenchampionite Items",
-  "creativetab.tutorialmod.hasenchampionite_blocks": "Hasenchampionite Blocks"
+  "creativetab.tutorialmod.hasenchampionite_blocks": "Hasenchampionite Blocks",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "Thos block is quite §9MAGICAL§r",
+
+  "tooltip.tutorialmod.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.tutorialmod.chisel": "Press §eshift§r for more information",
+
+  "tooltip.tutorialmod.kohlrabi.shift_down": "This is a Food, who is crazy",
+  "tooltip.tutorialmod.kohlrabi": "Press §eshift§r for more information"
 
 }
