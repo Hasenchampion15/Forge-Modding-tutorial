@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hasenchampionite_deepslate_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:hasenchampionite_deepslate_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:hasenchampionite_from_smelting_hasenchampionite_deepslate_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hasenchampionite_deepslate_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:hasenchampionite_from_smelting_hasenchampionite_deepslate_ore"
+    ]
+  }
+}

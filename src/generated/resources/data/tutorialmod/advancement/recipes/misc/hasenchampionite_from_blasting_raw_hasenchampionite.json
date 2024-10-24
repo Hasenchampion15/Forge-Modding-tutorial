@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_hasenchampionite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:raw_hasenchampionite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:hasenchampionite_from_blasting_raw_hasenchampionite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_hasenchampionite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:hasenchampionite_from_blasting_raw_hasenchampionite"
+    ]
+  }
+}

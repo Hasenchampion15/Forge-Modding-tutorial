@@ -1,0 +1,6 @@
+// 1.21	2024-10-24T15:16:33.020326	Loot Tables
+912cf9013f2da613b78a131ffbbe60756c72f591 data/tutorialmod/loot_table/blocks/hasenchampionite_block.json
+15956670eed2f90eb72d83948425fe96e02368fc data/tutorialmod/loot_table/blocks/hasenchampionite_deepslate_ore.json
+eac756993db551762dfefa141a5de883a280171f data/tutorialmod/loot_table/blocks/hasenchampionite_ore.json
+8cadd73280b5040d1e510cad246834ca39b6b62f data/tutorialmod/loot_table/blocks/magic_block.json
+8e57d5c4c964661beaeef32c7cef0cc3e065019c data/tutorialmod/loot_table/blocks/raw_hasenchampionite_block.json
